@@ -3,3 +3,18 @@ __pycache__/
 *.ipynb_checkpoints
 venv/
 .DS_Store
+
+
+
+# Ignore all image/label data
+dataset/day/images/
+dataset/day/labels/
+dataset/night/images/
+dataset/night/labels/
+
+# If you also generate train/val folders:
+dataset_day/
+dataset_night/
+
+# Ignore LabelImg/Roboflow artifacts
+*.xml
